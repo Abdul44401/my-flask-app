@@ -1,4 +1,5 @@
 from flask import Flask
+import os
 
 app = Flask(__name__)
 
@@ -7,5 +8,5 @@ def home():
     return "<h1>Hello from Render.com!</h1>"
 
 if __name__ == "__main__":
-     port = int(os.environ.get("PORT", 10000))
+    port = int(os.environ.get("PORT", 10000))
     app.run(host="0.0.0.0", port=port)
