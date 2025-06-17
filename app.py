@@ -15,7 +15,9 @@ def home():
                 </style>
             </head>
             <body>
-                <iframe title="Fleet Management" src="https://app.powerbi.com/reportEmbed?reportId=38a7f1b4-4c67-40b3-81de-58bd322e606e&autoAuth=true&ctid=80f93bfb-0dec-4cbf-8835-279bd4f13ab7" allowFullScreen="true"></iframe>
+                <iframe title="Fleet Management"
+                        src="https://app.powerbi.com/reportEmbed?reportId=38a7f1b4-4c67-40b3-81de-58bd322e606e&autoAuth=true&ctid=80f93bfb-0dec-4cbf-8835-279bd4f13ab7&navContentPaneEnabled=false"
+                        allowFullScreen="true"></iframe>
             </body>
         </html>
     '''
